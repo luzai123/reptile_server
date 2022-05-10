@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1, h2, h3, div{
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+table {
+  margin: auto;
+  border:1px solid rgb(235, 145, 145);
+  width: 800px;
+  table-layout:fixed;
+}
+
+table td, th {
+  border:1px solid rgb(156, 146, 146);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+input {
+  margin-right: 10px;
+}
+
+dev {
+  text-align: center;
+}

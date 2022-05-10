@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  script(type="text/javascript" src="/javascripts/jquery-3.6.0.min.js")
+  script(type="text/javascript" src="/javascripts/index.js")
+  h1= title
+    h3  请输入网址: 
+      input(type="text" id="url" value="https://news.baidu.com/")  
+    h3  请输入规则: 
+      input(type="text" id="rule" value="#pane-news a")  
+    p 
+      button(onclick="getRepliteList()") 确定
+
+  div 
+    h2 查询结果:
+    table
+      thead
+        th(style="width:260px;") 名称
+        th(style="width:540px;") 链接
+      tbody(id="tb") 
